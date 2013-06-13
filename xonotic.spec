@@ -4,7 +4,7 @@
 Summary: Multiplayer, deathmatch oriented first person shooter
 Name: xonotic
 Version: 0.7.0
-Release: 1%{?dist}
+Release: 1.1%{?dist}
 License: GPLv2+ and LGPLv2+ and BSD
 Group: Amusements/Games
 URL: http://www.xonotic.org/
@@ -244,7 +244,7 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %changelog
-* Thu Jun 12 2013 Igor Gnatenko <> - 0.7.0-1.1
+* Thu Jun 12 2013 Igor Gnatenko <i.gnatenko.brain@gmail.com> - 0.7.0-1.1
 - Update patch for arm
 
 * Thu Jun 13 2013 Igor Gnatenko <i.gnatenko.brain@gmail.com> - 0.7.0-1
