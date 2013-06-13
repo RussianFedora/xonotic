@@ -1,0 +1,22 @@
+--- darkplaces/crypto.c~	2012-03-08 17:14:52.000000000 -0600
++++ darkplaces/crypto.c	2013-02-08 10:15:53.415214500 -0600
+@@ -104,7 +104,7 @@
+ 
+ #ifdef CRYPTO_STATIC
+ 
+-#include <d0_blind_id/d0_blind_id.h>
++#include "d0_blind_id/d0_blind_id.h"
+ 
+ #define d0_blind_id_dll 1
+ #define Crypto_OpenLibrary() true
+--- darkplaces/crypto.c~	2013-02-08 10:17:25.000000000 -0600
++++ darkplaces/crypto.c	2013-02-08 10:18:36.039210872 -0600
+@@ -287,7 +287,7 @@
+ 
+ #ifdef CRYPTO_RIJNDAEL_STATIC
+ 
+-#include <d0_blind_id/d0_rijndael.h>
++#include "d0_blind_id/d0_rijndael.h"
+ 
+ #define d0_rijndael_dll 1
+ #define Crypto_Rijndael_OpenLibrary() true

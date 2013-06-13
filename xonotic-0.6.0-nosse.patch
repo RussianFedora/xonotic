@@ -1,0 +1,13 @@
+--- darkplaces/makefile.inc~	2013-02-20 11:27:29.000000000 -0600
++++ darkplaces/makefile.inc	2013-02-20 11:42:02.328699712 -0600
+@@ -193,8 +193,8 @@
+ CFLAGS_RELEASE_PROFILE=-fbranch-probabilities
+ CFLAGS_SDL=$(SDLCONFIG_CFLAGS)
+ 
+-CFLAGS_SSE=-msse
+-CFLAGS_SSE2=-msse2
++#CFLAGS_SSE=-msse
++#CFLAGS_SSE2=-msse2
+ 
+ OPTIM_DEBUG=$(CPUOPTIMIZATIONS)
+ #OPTIM_RELEASE=-O2 -fno-strict-aliasing -ffast-math -funroll-loops $(CPUOPTIMIZATIONS)
