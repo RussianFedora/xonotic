@@ -244,7 +244,7 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %changelog
-* Thu Jun 12 2013 Igor Gnatenko <i.gnatenko.brain@gmail.com> - 0.7.0-1.1
+* Thu Jun 13 2013 Igor Gnatenko <i.gnatenko.brain@gmail.com> - 0.7.0-1.1
 - Update patch for arm
 
 * Thu Jun 13 2013 Igor Gnatenko <i.gnatenko.brain@gmail.com> - 0.7.0-1
