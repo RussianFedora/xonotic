@@ -22,7 +22,7 @@ Source10: darkplaces-quake.sh
 Source11: darkplaces-quake.autodlrc
 Source12: darkplaces-quake.desktop
 Patch0: darkplaces-crypto.patch
-#Patch1: xonotic-0.6.0-nosse.patch
+Patch1: xonotic-nosse.patch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildRequires: alsa-lib-devel
 BuildRequires: desktop-file-utils
@@ -120,7 +120,7 @@ tar -C darkplaces/ -xzf %{SOURCE2}
 
 %patch0 -p0
 %ifnarch %{ix86} x86_64
-#%patch1 -p0
+%patch1 -p0
 %endif
 
 %build
@@ -244,6 +244,9 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %changelog
+* Thu Jun 12 2013 Igor Gnatenko <> - 0.7.0-1.1
+- Update patch for arm
+
 * Thu Jun 13 2013 Igor Gnatenko <i.gnatenko.brain@gmail.com> - 0.7.0-1
 - Bump to 0.7
 
